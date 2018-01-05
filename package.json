@@ -1,0 +1,90 @@
+{
+  "_from": "material-auto-rotating-carousel",
+  "_id": "material-auto-rotating-carousel@1.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Sux0oFzaJIOYTP98brMBdepFGPB/sM8sp3aqmgImSh1262UU3RvpCEaxJ69iIk3+MRhT41t2YTKmEkDrPkp7NQ==",
+  "_location": "/material-auto-rotating-carousel",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "material-auto-rotating-carousel",
+    "name": "material-auto-rotating-carousel",
+    "escapedName": "material-auto-rotating-carousel",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/material-auto-rotating-carousel/-/material-auto-rotating-carousel-1.7.0.tgz",
+  "_shasum": "3cdea21dc01226573c234422b55ae2da5aaa1d2c",
+  "_spec": "material-auto-rotating-carousel",
+  "_where": "/home/aamping/react/olympikesoft",
+  "author": {
+    "name": "Wertarbyte",
+    "email": "kontakt@wertarbyte.com",
+    "url": "https://wertarbyte.com"
+  },
+  "bugs": {
+    "url": "https://github.com/TeamWertarbyte/material-auto-rotating-carousel/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "material-ui-dots": "^1.2.0",
+    "prop-types": "^15.5.8"
+  },
+  "deprecated": false,
+  "description": "Introduce new users to your app with this material style carousel",
+  "devDependencies": {
+    "@webpack-blocks/babel6": "^0.4.1",
+    "@webpack-blocks/webpack2": "^0.4.0",
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.8.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-material-ui": "^0.3.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "material-ui": "^0.19.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-styleguidist": "^6.0.31",
+    "react-swipeable-views": "^0.12.0",
+    "standard": "^10.0.2"
+  },
+  "homepage": "https://github.com/TeamWertarbyte/material-auto-rotating-carousel#readme",
+  "keywords": [
+    "react",
+    "material",
+    "rotate",
+    "intro",
+    "react-component"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "material-auto-rotating-carousel",
+  "peerDependencies": {
+    "material-ui": ">=0.15.4 <1.0.0",
+    "react": "^15.5.4 || ^16.0.0",
+    "react-dom": "^15.5.4 || ^16.0.0",
+    "react-swipeable-views": "^0.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamWertarbyte/material-auto-rotating-carousel.git"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run build",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "test": "standard"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "version": "1.7.0"
+}
